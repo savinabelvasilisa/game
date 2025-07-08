@@ -1,23 +1,38 @@
-from PyQt5.QtWidgets import QMainWindow, QPushButton
-from game_window import GameWindow
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel
+from PyQt5.QtGui import QFont
+from PyQt5.QtCore import Qt
 
-class MenuWindow(QMainWindow):
-    def __init__(self):
+class MenuWindow(QWidget):
+    def __init__(self, start_callback, stats_callback, exit_callback):
         super().__init__()
-        self.setWindowTitle("Меню")
-        self.setGeometry(100, 100, 400, 300)
+        self.start_callback = start_callback
+        self.stats_callback = stats_callback
+        self.exit_callback = exit_callback
 
-        # Кнопка "Начать игру"
-        self.start_button = QPushButton("Начать игру", self)
-        self.start_button.setGeometry(130, 100, 140, 40)
-        self.start_button.clicked.connect(self.start_game)
+        layout = QVBoxLayout()
+        layout.setAlignment(Qt.AlignCenter)
 
-        # Кнопка "Выход"
-        self.quit_button = QPushButton("Выход", self)
-        self.quit_button.setGeometry(130, 160, 140, 40)
-        self.quit_button.clicked.connect(self.close)
+        title = QLabel("Fluppy Vasya 🐥")
+        title.setFont(QFont("Arial", 32, QFont.Bold))
+        title.setAlignment(Qt.AlignCenter)
 
-    def start_game(self):
-        self.game_window = GameWindow()
-        self.game_window.show()
-        self.hide()  # Скрываем меню
+        layout.addWidget(title)
+
+        easy_btn = QPushButton("Легко")
+        medium_btn = QPushButton("Средне")
+        hard_btn = QPushButton("Сложно")
+        stats_btn = QPushButton("Статистика")
+        exit_btn = QPushButton("Выход")
+
+        for btn in [easy_btn, medium_btn, hard_btn, stats_btn, exit_btn]:
+            btn.setFixedHeight(40)
+            btn.setFont(QFont("Arial", 14))
+            layout.addWidget(btn)
+
+        easy_btn.clicked.connect(lambda: start_callback("easy"))
+        medium_btn.clicked.connect(lambda: start_callback("medium"))
+        hard_btn.clicked.connect(lambda: start_callback("hard"))
+        stats_btn.clicked.connect(stats_callback)
+        exit_btn.clicked.connect(exit_callback)
+
+        self.setLayout(layout)

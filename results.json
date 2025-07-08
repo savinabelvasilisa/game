@@ -1,0 +1,106 @@
+[
+  {
+    "score": 9,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 160
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 160
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 160
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 1,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 5,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 3,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 1,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  }
+]
