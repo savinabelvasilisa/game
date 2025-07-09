@@ -102,5 +102,1140 @@
       "pipe_speed": 2,
       "gap_height": 200
     }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 160
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 160
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 2,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 160
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 2,
+      "gap_height": 200
+    }
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 58
+    }
+  },
+  {
+    "score": 5,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 9
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 5,
+      "gap_height": 120,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 18
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 0
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 100
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 10
+    }
+  },
+  {
+    "score": 7,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 9,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 5,
+      "gap_height": 120,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 4,
+      "gap_height": 160,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 4,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 3,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 4,
+      "gap_height": 160,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 8,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 5,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 9,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 5,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 7,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 7,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 9,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 61,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 85,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 5,
+      "gap_height": 120,
+      "pipe_interval": 60,
+      "bg": "assets/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 5,
+      "gap_height": 120,
+      "pipe_interval": 60,
+      "bg": "assets/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 5,
+      "gap_height": 120,
+      "pipe_interval": 60,
+      "bg": "assets/bg_city.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
   }
 ]

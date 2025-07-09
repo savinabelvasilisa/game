@@ -1,26 +1,44 @@
-from PyQt5.QtGui import QPainter, QColor, QBrush
+from PyQt5.QtGui import QPixmap, QColor
 from PyQt5.QtCore import QRect
+import os
 
 class Bird:
-    def __init__(self, x, y):
+    def __init__(self, x, y, image_path=None):
         self.x = x
         self.y = y
-        self.radius = 20
+        self.radius = 32  # половина размера 64x64
         self.velocity = 0
-        self.gravity = 0.5
-        self.jump_strength = -8
+        self.gravity = 0.6
+        self.lift = -10
+
+        # Загрузка картинки птицы
+        self.image = QPixmap("assets/bird.png")
+        
+        if image_path:
+            self.image = QPixmap(image_path)
+        else:
+            self.image = None
 
     def update(self):
         self.velocity += self.gravity
         self.y += self.velocity
 
     def jump(self):
-        self.velocity = self.jump_strength
+        self.velocity = self.lift
 
-    def draw(self, painter: QPainter):
-        painter.setBrush(QBrush(QColor("yellow")))
-        painter.drawEllipse(int(self.x - self.radius), int(self.y - self.radius), int(self.radius * 2), int(self.radius * 2))
-
+  
+    def draw(self, painter):
+        if self.image:
+            size = 70
+            painter.drawPixmap(QRect(int(self.x - size//2), int(self.y - size//2), int(size), int(size)), self.image)
+        
+    
     def get_rect(self):
-        return QRect(int(self.x - self.radius), int(self.y - self.radius), self.radius * 2, self.radius * 2)
+        if self.image:
+            size = self.image.width()
+            padding = size * 0.4  # уменьшим рамку на 50%
+            return QRect(int(self.x - size // 2 + padding // 2), int(self.y - size // 2 + padding // 2), int(size - padding), int(size - padding))
 
+        else:
+            return QRect(int(self.x - self.radius), int(self.y - self.radius), self.radius * 2, self.radius * 2)
+    
