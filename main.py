@@ -7,6 +7,9 @@ from game_objects.coin import Coin
 
 import sys
 import pygame
+import os
+if getattr(sys, 'frozen', False):
+    os.chdir(sys._MEIPASS)
 
 pygame.mixer.init()
 
@@ -19,13 +22,14 @@ def start_game(config):
     pygame.mixer.music.stop()
     game_window = GameWindow(config=config)
     game_window.set_show_stats_callback(show_stats)
+    game_window.set_show_menu_callback(show_menu)
     stack.addWidget(game_window)
     stack.setCurrentWidget(game_window)
 
 
 def show_menu():
     pygame.mixer.music.stop()
-    pygame.mixer.music.load("assets/menu_music.wav")
+    pygame.mixer.music.load("assets/music/menu_music.wav")
     pygame.mixer.music.set_volume(menu.volume_slider.value() / 100)
     pygame.mixer.music.play(-1)
     stack.setCurrentWidget(menu)
@@ -45,7 +49,7 @@ stack.setFixedSize(600, 800)
 stack.show()
 
 # Воспроизводим музыку меню при запуске
-pygame.mixer.music.load("assets/menu_music.wav")
+pygame.mixer.music.load("assets/music/menu_music.wav")
 pygame.mixer.music.set_volume(menu.volume_slider.value() / 100)
 pygame.mixer.music.play(-1)
 

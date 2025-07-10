@@ -1237,5 +1237,557 @@
       "volume": 50,
       "character": "chick_1.png"
     }
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 7,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 3,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 8,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    }
+  },
+  {
+    "score": 4,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 9,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    }
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-09 18:00:27"
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    },
+    "datetime": "2025-07-09 18:04:27"
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    },
+    "datetime": "2025-07-09 18:08:47"
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    },
+    "datetime": "2025-07-09 18:08:56"
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_2.png"
+    },
+    "datetime": "2025-07-09 18:09:05"
+  },
+  {
+    "score": 9,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-09 18:48:24"
+  },
+  {
+    "score": 5,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-09 18:49:56"
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 00:32:50"
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 00:33:13"
+  },
+  {
+    "score": 2,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 4,
+      "gap_height": 160,
+      "pipe_interval": 80,
+      "bg": "assets/map/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 00:33:50"
+  },
+  {
+    "score": 8,
+    "coins": 4,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 01:51:51"
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 01:52:12"
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 4,
+      "gap_height": 160,
+      "pipe_interval": 80,
+      "bg": "assets/map/bg_sky.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 01:52:20"
+  },
+  {
+    "score": 1,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:18:47"
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 30,
+      "character": "chick_3.png"
+    },
+    "datetime": "2025-07-10 02:22:25"
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:31:30"
+  },
+  {
+    "score": 1,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:31:44"
+  },
+  {
+    "score": 3,
+    "coins": 1,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:32:09"
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:46:40"
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:49:42"
+  },
+  {
+    "score": 6,
+    "coins": 3,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:49:58"
+  },
+  {
+    "score": 3,
+    "coins": 2,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:52:24"
+  },
+  {
+    "score": 10,
+    "coins": 5,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 02:56:54"
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "pipe_interval": 100,
+      "bg": "assets/map/bg_forest.png",
+      "volume": 50,
+      "character": "chick_1.png"
+    },
+    "datetime": "2025-07-10 03:40:22"
   }
 ]

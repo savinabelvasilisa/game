@@ -1,6 +1,6 @@
 # stats_window.py
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QListWidget, QComboBox
-from PyQt5.QtGui import QFont
+from PyQt5.QtGui import QFont, QPixmap, QPainter
 from PyQt5.QtCore import Qt
 import json
 import os
@@ -14,29 +14,50 @@ class StatsWindow(QWidget):
         layout = QVBoxLayout()
         layout.setAlignment(Qt.AlignTop)
 
-        title = QLabel("Статистика игр")
+        title = QLabel("СТАТИСТИКА")
         title.setFont(QFont("Arial", 24, QFont.Bold))
         title.setAlignment(Qt.AlignCenter)
 
         self.filter_box = QComboBox()
+        self.filter_box.setStyleSheet("""
+        QComboBox {
+            background-color: rgba(255, 255, 255, 128);
+        }
+        """)
         self.filter_box.addItems(["Все", "Легко", "Средне", "Сложно"])
         self.filter_box.currentTextChanged.connect(self.load_stats)
 
         self.list_widget = QListWidget()
+        self.list_widget.setStyleSheet("""
+        QListWidget {
+            background-color: rgba(255, 255, 255, 128);  /* 50% белый */
+            border: 1px solid #ccc;
+        }
+        """)
         self.figure = plt.figure(figsize=(5, 3))
         self.canvas = FigureCanvas(self.figure)
         self.canvas.setMinimumHeight(250)
 
         self.back_button = QPushButton("Назад в меню")
+        self.back_button.setStyleSheet("""
+        QPushButton {
+            background-color: rgba(255, 255, 255, 128);
+            border: 1px solid #aaa;
+            font-size: 14px;
+        }
+        """)
+
         self.back_button.setFixedHeight(40)
 
         layout.addWidget(title)
         layout.addWidget(QLabel("Фильтр по сложности:"))
         layout.addWidget(self.filter_box)
         layout.addWidget(self.list_widget)
-        layout.addWidget(QLabel("График очков:"))
+   
         layout.addWidget(self.canvas)
         layout.addWidget(self.back_button)
+        
+        self.bg = QPixmap("assets/stats_bg.png") 
 
         self.setLayout(layout)
         self.load_stats()
@@ -62,7 +83,8 @@ class StatsWindow(QWidget):
                     score = result.get("score", 0)
                     coins = result.get("coins", 0)
                     diff = self.format_difficulty(result.get("difficulty", {}))
-                    item = f"Очки: {score} | Монеты: {coins} | Сложность: {diff}"
+                    time = result.get("datetime", "Неизвестно")
+                    item = f"Очки: {score} | Монеты: {coins} | Сложность: {diff} | Время: {time}"
                     self.list_widget.addItem(item)
                     scores.append(score)
 
@@ -87,3 +109,8 @@ class StatsWindow(QWidget):
 
     def set_back_callback(self, callback):
         self.back_button.clicked.connect(callback)
+
+    def paintEvent(self, event):
+        painter = QPainter(self)
+        painter.drawPixmap(self.rect(), self.bg)
+    

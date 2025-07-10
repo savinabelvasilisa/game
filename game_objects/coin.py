@@ -31,7 +31,7 @@ class Coin:
         self.frame_index = 0
         self.frame_delay = 5
         self.frame_counter = 0
-        self.sound = pygame.mixer.Sound("assets/coin.wav")
+        self.sound = pygame.mixer.Sound("assets/music/coin.wav")
 
     def update(self, volume):
         if self.collected:

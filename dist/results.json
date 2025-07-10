@@ -18,5 +18,15 @@
       "bg": "assets/bg_forest.png",
       "volume": 26
     }
+  },
+  {
+    "score": 0,
+    "coins": 0,
+    "difficulty": {
+      "pipe_speed": 3,
+      "gap_height": 200,
+      "bg": "assets/bg_forest.png",
+      "volume": 50
+    }
   }
 ]
