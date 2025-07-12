@@ -4,12 +4,6 @@ from PyQt5.QtCore import QRect, QTimer
 import pygame
 import os
 
-# coin.py
-from PyQt5.QtGui import QPainter, QPixmap
-from PyQt5.QtCore import QRect
-import pygame
-import os
-
 class Coin:
     frames = []
 
@@ -62,3 +56,8 @@ class Coin:
 
     def is_off_screen(self):
         return self.pipe.x + self.offset_x + self.radius < 0
+    
+    @property
+    def x(self):
+        return self.pipe.x + self.offset_x
+    

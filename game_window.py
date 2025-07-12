@@ -40,6 +40,7 @@ class GameWidget(QWidget):
         self.new_record = False
         self.new_record_timer = None
         self.new_record_shown = False
+        self.new_record_saved = False
 
         if self.gap_height >= 200:
             self.goal_score = 10
@@ -86,10 +87,10 @@ class GameWidget(QWidget):
         self.update()
     
     def set_show_stats_callback(self, callback):
-        self.show_stats = callback
+        self.show_stats_callback = callback
 
     def set_show_menu_callback(self, callback):
-        self.show_menu = callback
+        self.show_menu_callback = callback
 
     def game_loop(self):
         if self.game_over or self.level_completed:
@@ -125,18 +126,15 @@ class GameWidget(QWidget):
             elif not hasattr(pipe, "scored") and pipe.passed_by(self.bird.x):
                 self.score += 1
                 pipe.scored = True
-                if self.score > self.high_score:
-                    self.high_score = self.score
-                    if not self.new_record_shown:
-                        self.new_record = True
-                        self.new_record_shown = True  # ← показываем один раз
-                        if self.new_record_timer:
-                            self.new_record_timer.stop()
-                        self.new_record_timer = QTimer(self)
-                        self.new_record_timer.setSingleShot(True)
-                        self.new_record_timer.timeout.connect(self.hide_new_record)
-                        self.new_record_timer.start(2000)
-  
+                if self.score > self.high_score and not self.new_record_shown:
+                    self.new_record = True
+                    self.new_record_shown = True  # ⬅️ запоминаем, что уже показали
+                    self.high_score = self.score  # ⬅️ важно: обновляем, чтобы не показывать снова
+                    self.new_record_timer = QTimer(self)
+                    self.new_record_timer.setSingleShot(True)
+                    self.new_record_timer.timeout.connect(self.hide_new_record)
+                    self.new_record_timer.start(2000)
+                
 
         for coin in self.coins:
             coin.update(self.volume)
@@ -246,15 +244,34 @@ class GameWidget(QWidget):
 
         # Обновление рекорда
         if self.score > self.high_score:
-            with open("highscore.txt", "w") as f:
-                f.write(str(self.score))
+            path = "highscores.json"
+            data = {}
+            if os.path.exists(path):
+                with open(path, "r") as f:
+                    try:
+                        data = json.load(f)
+                    except json.JSONDecodeError:
+                        pass
+            data[self.config["difficulty"]] = self.score
+            with open(path, "w") as f:
+                json.dump(data, f, indent=2)
+
+                
 
 
     def load_high_score(self):
-        if os.path.exists("highscore.txt"):
-            with open("highscore.txt", "r") as f:
-                return int(f.read())
+        path = "highscores.json"
+        if os.path.exists(path):
+            with open(path, "r") as f:
+                data = json.load(f)
+                return data.get(self.config["difficulty"], 0)
         return 0
+    
+    def closeEvent(self, event):
+        if not self.game_over and not self.level_completed:
+            self.save_result()
+        event.accept()
+
 
     def paintEvent(self, event):
         painter = QPainter(self)

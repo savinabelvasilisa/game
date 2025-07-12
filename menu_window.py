@@ -200,7 +200,7 @@ class MenuWindow(QWidget):
         self.char_combo.clear()
         for name, cost in self.char_options:
             icon = QIcon(f"assets/characters/{name}")
-            label = name if name in self.unlocked else f"{name} (🔒 {cost} монет)"
+            label = "" if name in self.unlocked else f"🔒 {cost} монет"
             self.char_combo.addItem(icon, label, userData=name)
         self.char_combo.blockSignals(False)
 
@@ -224,7 +224,8 @@ class MenuWindow(QWidget):
             "sky": "assets/map/bg_sky.png",
             "city": "assets/map/bg_city.png"
         }.get(map_choice, "")
-
+        
+        config["difficulty"] = difficulty 
         config["bg"] = map_bg
         config["volume"] = volume
         config["character"] = self.selected_character

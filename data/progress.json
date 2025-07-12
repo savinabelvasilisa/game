@@ -1,8 +1,9 @@
 {
-  "coins": 26,
+  "coins": 119,
   "unlocked": [
     "chick_1.png",
     "chick_2.png",
-    "chick_3.png"
+    "chick_3.png",
+    "chick_4.png"
   ]
 }

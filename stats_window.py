@@ -85,7 +85,7 @@ class StatsWindow(QWidget):
                     diff = self.format_difficulty(result.get("difficulty", {}))
                     time = result.get("datetime", "Неизвестно")
                     item = f"Очки: {score} | Монеты: {coins} | Сложность: {diff} | Время: {time}"
-                    self.list_widget.addItem(item)
+                    self.list_widget.insertItem(0, item)
                     scores.append(score)
 
         if scores:
